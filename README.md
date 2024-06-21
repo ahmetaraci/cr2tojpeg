@@ -1,51 +1,51 @@
-# CR2 to JPEG Converter
+# CR2 to JPEG Dönüştürücü
 
-## Overview
+## Genel Bakış
 
-CR2 to JPEG Converter is a standalone executable application that converts Canon CR2 RAW files to high-quality JPEG files. This tool is designed to be user-friendly and efficient, allowing users to batch process multiple CR2 files with a specified output quality.
+CR2 to JPEG Dönüştürücü, Canon CR2 RAW dosyalarını yüksek kaliteli JPEG dosyalarına dönüştüren bağımsız bir çalıştırılabilir uygulamadır. Bu araç, kullanıcı dostu ve verimli olacak şekilde tasarlanmış olup, kullanıcıların birden fazla CR2 dosyasını toplu olarak, belirli bir çıktı kalitesi ile işleyebilmesine olanak tanır.
 
-## Features
+## Özellikler
 
-- Batch conversion of CR2 files to JPEG.
-- Adjustable JPEG output quality.
-- Simple double-click execution.
+- CR2 dosyalarının toplu olarak JPEG'e dönüştürülmesi.
+- Ayarlanabilir JPEG çıkış kalitesi.
+- Basit çift tıklama ile çalıştırma.
 
-## Usage
+## Kullanım
 
-1. **Download the Executable:**
-   Download the `cr2_to_jpeg_converter.exe` from the [releases](https://github.com/ahmetaraci/cr2tojpeg/releases) page.
+1. **Çalıştırılabilir Dosyayı İndirin:**
+   `CR2_to_JPEG.exe` dosyasını [buradan](https://github.com/ahmetaraci/cr2tojpeg/releases) indirin.
 
-2. **Run the Application:**
-   Simply double-click the `cr2_to_jpeg_converter.exe` to start the application.
+2. **Uygulamayı Çalıştırın:**
+   `CR2_to_JPEG.exe` dosyasına çift tıklayarak uygulamayı başlatın.
 
-3. **Input and Output Directories:**
-   Follow the on-screen prompts to select the directory containing the CR2 files and the output directory where the converted JPEG files will be saved.
+3. **Girdi ve Çıktı Dizinlerini Seçin:**
+   CR2 dosyalarını içeren dizini ve dönüştürülmüş JPEG dosyalarının kaydedileceği dizini seçmek için ekrandaki talimatları izleyin.
 
-4. **Set JPEG Quality:**
-   Specify the desired quality for the output JPEG files (1-100), where 100 represents the highest quality.
+4. **JPEG Kalitesini Ayarlayın:**
+   Çıktı JPEG dosyalarının istenen kalitesini belirleyin (1-100), burada 100 en yüksek kaliteyi temsil eder.
 
-## Example
+## Örnek
 
-1. Double-click `cr2_to_jpeg_converter.exe`.
-2. Select the input folder containing your CR2 files.
-3. Select the output folder where you want to save the JPEG files.
-4. Enter the quality level for the JPEG files (e.g., 85).
-5. Click "Convert" and wait for the process to complete.
+1. `CR2_to_JPEG.exe` dosyasına çift tıklayın.
+2. CR2 dosyalarınızı içeren klasörü seçin.
+3. JPEG dosyalarını kaydetmek istediğiniz klasörü seçin.
+4. JPEG dosyalarının kalite seviyesini girin (örneğin, 85).
+5. "Dönüştür" düğmesine tıklayın ve işlemin tamamlanmasını bekleyin.
 
-## Development
+## Geliştirme
 
-This application was developed using Python and the Pillow library, then packaged into an executable using PyInstaller. The development process involved:
+Bu uygulama, Python ve Pillow kütüphanesi kullanılarak geliştirilmiş ve ardından PyInstaller kullanılarak çalıştırılabilir bir dosyaya paketlenmiştir. Geliştirme süreci şu adımları içermektedir:
 
-1. Writing the conversion script with Pillow.
-2. Testing the script to ensure accurate CR2 to JPEG conversion.
-3. Packaging the script into a standalone executable using PyInstaller.
+1. Pillow ile dönüştürme scripti yazıldı.
+2. Tkinter ile arayüzü yazıldı.
+3. Script, PyInstaller kullanılarak bağımsız bir çalıştırılabilir dosya haline getirildi.
 
-## License
+## Lisans
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
-## Contact
+## İletişim
 
-For any questions or suggestions, please contact [muhammetahmet.araci@gmail.com].
+Herhangi bir soru veya öneri için [muhammetahmet.araci@gmail.com] adresinden iletişime geçebilirsiniz.
 
-[Visit Me & Contact ME](https://ahmetaraci.github.io)
+[Beni Ziyaret Edin ve İletişime Geçin](https://ahmetaraci.github.io)
